@@ -1,8 +1,8 @@
 name: Magisk Setup
 inputs:
   is-asset-build:
-    required: false
-    default: false
+    required: true
+    default: true
 runs:
   using: "composite"
   steps:
